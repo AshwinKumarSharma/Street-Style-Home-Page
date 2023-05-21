@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Orbitron:wght@400;700&family=Oswald:wght@200;700&family=Roboto&family=Sansita+Swashed&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-container div img {
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    left: 300px;
+    top: 31px;
+}
+
+.list-item {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.button-group {
+    display: flex;
+}
+
+button {
+    padding: 5px 33px;
+    background: transparent;
+    border: 2px solid #1f1f1f;
+    border-radius: 8px;
+    position: absolute;
+    top: 45px;
+    right: 160px;
+}
+
+svg {
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    right: 280px;
+    top: 50px;
+}
+
+.square img {
+    width: 250px;
+    height: 250px;
+    z-index: -1;
+    position: absolute;
+    left: 210px;
+    top: 345px;
+}
+
+.star img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 160px;
+    top: 160px;
+}
+
+.globe img {
+    position: absolute;
+    left: 690px;
+    top: 120px;
+    width: 40px;
+    height: 40px;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 110px;
+    top: 150px;
+} 
+
+.hero-container-right {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+.hero-heading {
+    font-size: 45px;
+    position: relative;
+    top: 15px;
+    right: 100px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.hero-description {
+    position: relative;
+    right: 35px;
+    width: 530px;
+    top: 20px;
+    word-break: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #758283;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: center; 
+}
+
+.icons span img {
+    width: 30px;
+    height: 30px;
+}
+
+.button-email {
+    position: relative;
+    top: 100px;
+    left: 105px;
+    font-family: 'Orbitron', sans-serif;
+    padding: 2px 25px;
+}
+
+.button-join {
+    position: relative;
+    top: 100px;
+    left: 115px;
+    padding: 2px 5px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.contact-heading {
+    position: relative;
+    top: 150px;
+    left: 210px;
+}
+
+.icons {
+    position: relative;
+    top: 150px;
+    left: 160px;
+}
+
+.icons img {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.star-bottom img {
+    width: 30px;
+    position: absolute;
+    top: 380px;
+    left: -60px;
+}
